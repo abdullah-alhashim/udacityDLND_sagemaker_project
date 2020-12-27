@@ -14971,7 +14971,7 @@ Using already existing model: pytorch-training-2020-12-24-07-52-22-974
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[149]:</div>
+<div class="prompt input_prompt">In&nbsp;[196]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sagemaker.predictor</span> <span class="kn">import</span> <span class="n">RealTimePredictor</span>
@@ -15017,7 +15017,7 @@ Using already existing model: pytorch-training-2020-12-24-07-52-22-974
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>---------------!</pre>
+<pre>-----------------!</pre>
 </div>
 </div>
 
@@ -15245,7 +15245,7 @@ Starting  neg  files
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[158]:</div>
+<div class="prompt input_prompt">In&nbsp;[197]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">predictor</span><span class="o">.</span><span class="n">endpoint</span>
@@ -15261,13 +15261,13 @@ Starting  neg  files
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[158]:</div>
+    <div class="prompt output_prompt">Out[197]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&#39;pytorch-inference-2020-12-24-09-24-46-867&#39;</pre>
+<pre>&#39;pytorch-inference-2020-12-27-07-28-30-766&#39;</pre>
 </div>
 
 </div>
@@ -15323,7 +15323,7 @@ Starting  neg  files
 <em>Review:</em><br>
 "It's not only a good series, it's not only the wonderful story, acting, cinematography, music. You watch it and it feels like the movie itself is a chessgame. With a rather weak opening indeed, a fabulous middlegame and a perfect ending. It's the kind of movies/series that stucks you in your armchair, on your couch or even in your bed anyway, forgetting about eating, sleeping, living. After the end, the return to reality has not yet occurred. You are still tormented in dimly lit orphanages, you travel all over the world, you are welcomed in super-bright chess tournaments a little more arrogant and well-dressed and you analyze variants. Do not miss it!"</p>
 <p><em>Predicted sentiment:</em><br>
-Your review was POSITIVE!</p>
+<img src="Screenshot 2020-12-27 104114.png"></p>
 
 </div>
 </div>
@@ -15338,7 +15338,7 @@ Your review was POSITIVE!</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[159]:</div>
+<div class="prompt input_prompt">In&nbsp;[198]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">predictor</span><span class="o">.</span><span class="n">delete_endpoint</span><span class="p">()</span>
@@ -15351,7 +15351,7 @@ Your review was POSITIVE!</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[195]:</div>
+<div class="prompt input_prompt">In&nbsp;[199]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>tar chvfz notebook.tar.gz *
@@ -15372,9 +15372,10 @@ Your review was POSITIVE!</p>
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>notebook.tar.gz
-tar: notebook.tar.gz: File shrank by 31376 bytes; padding with zeros
+tar: notebook.tar.gz: File shrank by 31727 bytes; padding with zeros
 README.md
 SageMaker Project.ipynb
+Screenshot 2020-12-27 104114.png
 serve/
 serve/requirements.txt
 serve/model.py
